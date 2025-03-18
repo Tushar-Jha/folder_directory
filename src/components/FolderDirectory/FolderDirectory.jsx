@@ -45,8 +45,6 @@ const FolderDirectory = () => {
         const updatedItems = [...items];
         updatedItems[index] = event;
         setItems(updatedItems);
-
-        console.log(items);
     }
 
     return (
